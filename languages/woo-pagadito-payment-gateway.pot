@@ -1,0 +1,261 @@
+# Copyright (C) 2024 Pagadito Developers
+# This file is distributed under the LGPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Pagadito Payment Gateway 6.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-pagadito-payment-gateway\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-14T22:18:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: woo-pagadito-payment-gateway\n"
+
+#. Plugin Name of the plugin
+#: woo-pagadito-payment-gateway.php
+msgid "WooCommerce Pagadito Payment Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woo-pagadito-payment-gateway.php
+msgid "https://wordpress.org/plugins/woo-pagadito-payment-gateway/"
+msgstr ""
+
+#. Description of the plugin
+#: woo-pagadito-payment-gateway.php
+#: includes/class-wc-pagadito-payment-gateway.php:118
+msgid "Pagadito allows you to pay online in a safe, easy and reliable way."
+msgstr ""
+
+#. Author of the plugin
+#: woo-pagadito-payment-gateway.php
+msgid "Pagadito Developers"
+msgstr ""
+
+#. Author URI of the plugin
+#: woo-pagadito-payment-gateway.php
+msgid "https://dev.pagadito.com/"
+msgstr ""
+
+#: includes/blocks/class-wc-pagadito-payments-blocks.php:87
+msgid "Complete Purchase with Pagadito"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:50
+msgid "Pagadito redirects customers to the Pagadito website, where they must enter their payment information, after which the client is returned to their website to complete the order."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:102
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:104
+msgid "Enable payments with Pagadito"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:108
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:110
+msgid "Control the title that the user sees in the checkout, if it is empty, only the Pagadito logo will appear."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:115
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:117
+msgid "Control the description which the user sees in the checkout."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:122
+msgid "Pagadito Theme"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:125
+msgid "Default"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:126
+msgid "Light"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:127
+msgid "Dark"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:129
+msgid "Control the color of the logos that will appear on the payment screen."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:133
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:139
+msgid "Enable Pagadito SandBox"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:140
+msgid "Pagadito SandBox can be used to test payments. Sign up for a %sPagadito account commerce in SandBox%s. Once the tests are completed, be sure to disable this option, to process payments in Production environment."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:144
+msgid "Select Local Currency"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:147
+msgid "USD"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:148
+msgid "GTQ"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:150
+msgid "Select the local currency to use. <strong>This configuration is only for production.</strong>"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:151
+msgid "This configuration is only for production."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:155
+msgid "Debug log"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:157
+msgid "Enable logging"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:158
+msgid "Log API events, inside <code>%s</code>"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:162
+msgid "Integration parameters"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:164
+msgid "Learn how to access your %sConnection credentials% s."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:169
+msgid "Represents the identifier of your Pagadito commerce account."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:176
+msgid "Represents the connection key to connect to Pagadito."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:181
+msgid "Return URL"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:183
+msgid "Enter this address <code>%s</code> in the Return URL field in your Pagadito account -> Technical configuration -> Integration parameters."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:186
+msgid "Webhooks"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:188
+msgid "For a full integration with Pagadito, be sure to enable the notifications send to Webhooks and enter this address <code>%s</code> in the Webhook URL field in your Pagadito account -> Technical configuration -> Webhooks."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:191
+msgid "Custom parameters"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:193
+msgid "Enable custom parameters"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:194
+msgid "Register the customer data in Pagadito, which includes: Full name, Telephone and Email. For more information %svisit this link.%s"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:269
+msgid "There are no items in the order"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:292
+msgid "Shipping: "
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:298
+msgid "Total Tax: "
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:307
+msgid "Discount coupon ("
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:345
+msgid "<strong>Note:</strong> Transactions under 1 dollar can´t be made"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:371
+#: includes/class-wc-pagadito-payment-gateway.php:397
+#: includes/class-wc-pagadito-payment-gateway.php:423
+#: includes/class-wc-pagadito-payment-gateway.php:449
+#: includes/class-wc-pagadito-payment-gateway.php:475
+#: includes/class-wc-pagadito-payment-gateway.php:501
+msgid "<strong>Note:</strong> Transactions less than the equivalent of 1 dollar can´t be processed"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:507
+msgid "<strong>A problem has occurred:</strong> "
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:593
+#: includes/class-wc-pagadito-payment-gateway.php:701
+msgid "Payment Completed, payment reference: "
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:604
+#: includes/class-wc-pagadito-payment-gateway.php:708
+msgid "Payment on Verification, payment reference: "
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:656
+msgid "It tried to verify a transaction with token or order_id null"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:662
+msgid "The transaction does not have a valid status to be processed: "
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:678
+msgid "The Token Pagadito was not found"
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:681
+msgid "Token Pagadito associated with the order not correspond with the get parameter: "
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:709
+msgid "The payment was left in verification."
+msgstr ""
+
+#: includes/class-wc-pagadito-payment-gateway.php:715
+#: includes/class-wc-pagadito-payment-gateway.php:723
+msgid "Transaction not completed, status: "
+msgstr ""
+
+#: woo-pagadito-payment-gateway.php:126
+msgid "Configuration"
+msgstr ""
+
+#: woo-pagadito-payment-gateway.php:127
+msgid "Documentation"
+msgstr ""
+
+#: woo-pagadito-payment-gateway.php:137
+msgid "APPROVAL NUMBER: <strong>"
+msgstr ""
